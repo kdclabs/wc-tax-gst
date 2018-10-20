@@ -25,7 +25,7 @@ if ( ! defined( 'WC_TAX_GST_FILE' ) ) {
 }
 
 // Include the main WooCommerce class.
-if ( ! class_exists( 'WooCommerce' ) ) {
+if ( ! class_exists( 'WC_Tax_GST' ) ) {
 	include_once dirname( __FILE__ ) . '/includes/class-wc-tax-gst.php';
 }
 
