@@ -11,7 +11,7 @@
  * Text Domain: kdc
  * WC requires at least: 3.0.0
  * WC tested up to: 3.4.7
- * GitHub Plugin URI: https://github.com/kdclabs/wc-tax-gstv 
+ * GitHub Plugin URI: https://github.com/kdclabs/wc-tax-gst 
  *
  * @package wc-tax-gst
  */
