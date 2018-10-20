@@ -2,8 +2,9 @@
 /**
  * Plugin Name: GST India for WooCommerce
  * Plugin URI: https://gst.dukaan.tech/
+ * GitHub Plugin URI: https://github.com/kdclabs/wc-tax-gst
  * Description: Make your WooCommerce store compliant with Indian Goods and Service Tax [GST].
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: dukaan.TECH
  * Author URI: https://dukaan.tech/
  * License: GPL2
@@ -11,7 +12,6 @@
  * Text Domain: kdc
  * WC requires at least: 3.0.0
  * WC tested up to: 3.4.7
- * GitHub Plugin URI: https://github.com/kdclabs/wc-tax-gst 
  *
  * @package wc-tax-gst
  */
@@ -46,6 +46,6 @@ if ( ! defined( 'WC_TAX_GST_FILE' ) ) {
 }
 
 // Include the main class.
-if ( ! class_exists( 'WC_Tax_GST' ) ) {
+if ( ! class_exists( 'WC_TAX_GST' ) ) {
 	require_once dirname( __FILE__ ) . '/includes/class-wc-tax-gst.php';
 }
