@@ -8,14 +8,17 @@
 
 defined( 'ABSPATH' ) || exit;
 
-
 class WC_GST_Settings {
-    /**
+ 
+	/**
      * Bootstraps the class and hooks required actions & filters.
      *
      */
     public static function init() {
 
+	}
+
+}
 
 /**
  * Create the section beneath the tax tab
@@ -38,7 +41,6 @@ function wc_tax_gst_settings( $settings, $current_section ) {
 	 * Check the current section is what we want
 	 **/
 	if ( $current_section == 'gst' ) {
-		
 		$settings_gst = array();
 		// Add Title to the Settings
 		$settings_gst[] = array( 
