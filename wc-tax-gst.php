@@ -11,6 +11,7 @@
  * Text Domain: kdc
  * WC requires at least: 3.0.0
  * WC tested up to: 3.4.7
+ * GitHub Plugin URI: https://github.com/kdclabs/wc-tax-gst
  *
  * @package wc-tax-gst
  */
@@ -24,7 +25,7 @@ if ( ! defined( 'WC_TAX_GST_FILE' ) ) {
 	define( 'WC_TAX_GST_FILE', __FILE__ );
 }
 
-// Include the main WooCommerce class.
+// Include the main class.
 if ( ! class_exists( 'WC_Tax_GST' ) ) {
 	include_once dirname( __FILE__ ) . '/includes/class-wc-tax-gst.php';
 }
