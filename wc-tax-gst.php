@@ -3,7 +3,7 @@
  * Plugin Name: GST India for WooCommerce
  * Plugin URI: https://gst.dukaan.tech/
  * Description: Make your WooCommerce store compliant with Indian Goods and Service Tax [GST].
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: dukaan.TECH
  * Author URI: https://dukaan.tech/
  * License: GPL2
