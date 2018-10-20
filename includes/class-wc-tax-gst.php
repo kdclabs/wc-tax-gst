@@ -33,10 +33,12 @@ function wc_tax_gst_add_section( $sections ) {
  */
 add_filter( 'woocommerce_get_settings_tax_gst', 'wc_tax_gst_settings', 10, 2 );
 function wc_tax_gst_settings( $settings, $current_section ) {
+	
 	/**
 	 * Check the current section is what we want
 	 **/
 	if ( $current_section == 'gst' ) {
+		
 		$settings_gst = array();
 		// Add Title to the Settings
 		$settings_gst[] = array( 
@@ -62,7 +64,11 @@ function wc_tax_gst_settings( $settings, $current_section ) {
 			'desc'		=> __( 'Any title you want can be added to your slider with this option!', 'kdc' ),
 		);
 		
-		$settings_gst[] = array( 'type' => 'sectionend', 'id' => 'gst' );
+		$settings_gst[] = array( 
+			'type' => 'sectionend', 
+			'id' => 'gst', 
+		);
+		
 		return $settings_gst;
 	
 	/**
@@ -71,4 +77,5 @@ function wc_tax_gst_settings( $settings, $current_section ) {
 	} else {
 		return $settings;
 	}
+	
 }
