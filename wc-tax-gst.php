@@ -49,14 +49,3 @@ if ( ! defined( 'WC_TAX_GST_FILE' ) ) {
 if ( ! class_exists( 'WC_Tax_GST' ) ) {
 	require_once dirname( __FILE__ ) . '/includes/class-wc-tax-gst.php';
 }
-
-/**
- * Create the section beneath the tax tab
- **/
-add_filter( 'woocommerce_get_sections_tax', 'wc_tax_gst_add_section' );
-function wc_tax_gst_add_section( $sections ) {
-	
-	$sections['gst'] = __( 'GST India', 'kdc' );
-	return $sections;
-	
-}
